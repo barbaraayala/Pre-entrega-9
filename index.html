@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <ul>
+                <li>Inicio</li>
+                <li>Pacientes</li>
+                <li>Agregar Pacientes</li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <h1 class="titulo">Veterinaria Patitas </h1>
+
+
+        <section>
+            <h2>Pacientes en espera</h2>
+
+            <search>
+                <label for="inputBuscar">Buscar paciente o tutor</label>
+                <input type="search" id="inputBuscar" placeholder="Ej: curcuma o nancy" class="texto-input">
+            </search>
+
+            <section id="contenedorPaciente" class="card-container"> </section>
+
+            <button class="btn" id="btnLimpiarstorage">Vaciar lista de pacientes</button>
+
+
+        </section>
+
+        <section class="form-container">
+            <p id="mensajeRegistro" class="mensaje-registro"> </p>
+
+            <section>
+
+                <form id="formPaciente" class="formulario">
+                    <h2>Registro nuevo paciente</h2>
+                    <input type="text" id="nombre" placeholder="Nombre" required class="texto-input">
+                    <input type="number" id="edad" placeholder="Edad" required class="texto-input">
+                    <input type="text" id="especie" placeholder="Especie" required class="texto-input">
+                    <input type="text" id="raza" placeholder="Raza" required class="texto-input">
+                    <input type="text" id="tutor" placeholder="Tutor" required class="texto-input">
+                    <button type="submit" class="btn">Agregar Paciente</button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <h3> PIE DE PAGINA</h3>
+    </footer>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    
+</body>
+
+</html>

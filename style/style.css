@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 15px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario {
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+input, .btn {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    cursor: pointer;
+    background: #eee;
+}
+
+.btn:hover {
+    background: #ddd;
+}
+
+
+.btn-eliminar {
+    background: #ffdddd;
+    border-color: #e0a0a0;
+}
+
+.mensaje-registro {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
